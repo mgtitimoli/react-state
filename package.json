@@ -2,7 +2,7 @@
   "name": "@mgtitimoli/react-state",
   "description": "React State Stuff",
   "version": "0.1.0",
-  "main": "index.js",
+  "main": "dist/index.js",
   "author": "Mauro Gabriel Titimoli <mgtitimoli@gmail.com> (https://github.com/mgtitimoli)",
   "license": "MIT",
   "publishConfig": {
