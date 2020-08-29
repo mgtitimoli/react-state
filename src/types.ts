@@ -1,7 +1,7 @@
 import type {Dispatch, SetStateAction} from "react";
 
-type SetStateFrom<TState> = Dispatch<SetStateAction<TState>>;
+type ReactSetStateFrom<TState> = Dispatch<SetStateAction<TState>>;
 
-type StateTupleFrom<TState> = [TState, SetStateFrom<TState>];
+type ReactStateTupleFrom<TState> = [TState, ReactSetStateFrom<TState>];
 
-export type {SetStateFrom, StateTupleFrom};
+export type {ReactSetStateFrom, ReactStateTupleFrom};
